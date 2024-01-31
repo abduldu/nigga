@@ -1,0 +1,88 @@
+/* General Styles */
+
+body {
+    font-family: 'Honk', system-ui;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.itsyou {
+    margin: 20px;
+    text-align: center;
+}
+
+.itsyou img {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+}
+
+/* Navigation Styles */
+
+.h {
+    margin: 7px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightskyblue;
+    font-family: 'Honk', system-ui;  
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    background-color: blue;
+    color: black;
+    font-family: 'Honk', system-ui;
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.nav ul li a:hover {
+    color: #007bff;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 767px) {
+    .container {
+        padding: 10px;
+    }
+    .itsyou {
+        margin: 10px;
+    }
+    .itsyou img {
+        width: 120px;
+        height: 120px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    /* Add styles for tablets if necessary */
+}
+
+@media only screen and (max-width: 1199px) {
+    /* Add styles for larger tablets and small desktops if necessary */
+}
